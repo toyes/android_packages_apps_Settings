@@ -122,6 +122,8 @@
     <string name="halo_notification_msgbox_summary">Show message box for incoming notifications</string>
     <string name="halo_unlock_ping_title">Ping on unlock</string>
     <string name="halo_unlock_ping_summary">Halo will ping when device is unlocked if new notifications were received</string>
+    <string name="halo_color_title">Halo color</string>
+    <string name="halo_color_summary">Defines how color Halo is going to be</string>
 
     <string name="halo_size_title">Halo size</string>
     <string name="halo_size_summary">Defines how big Halo is going to be</string>
@@ -143,6 +145,10 @@
     <string name="app_halo_label_black">Blacklist from HALO</string>
     <string name="app_halo_label_white">Whitelist from HALO</string>
 
+    <!-- Halo Color Picker -->
+    <string name="dialog_color_picker">Halo color</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
+
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Warning</string>
     <string name="custom_runtime_warning_message">ART is not supported by the ParanoidAndroid team. This setting is included for experimentation only and has the potential to cause instability, crashes, data loss or prevent the proper boot of your device. Visit &lt;a href=\"http://source.android.com/devices/tech/dalvik/art.html\"&gt;Introducing ART&lt;/a&gt; for more information.&lt;br/&gt;&lt;br/&gt;We request you do not file bug reports if you have enabled ART as your runtime.&lt;br/&gt;&lt;br/&gt;Are you sure you want to reboot to change runtime from <xliff:g id="old" example="libdvm.so">%1$s</xliff:g> to <xliff:g id="new" example="libart.so">%2$s</xliff:g>?</string>
@@ -156,4 +162,5 @@
 
     <!-- PA Plus -->
     <string name="pa_plus">Plus</string>
+
 </resources>
