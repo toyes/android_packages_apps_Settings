@@ -58,6 +58,17 @@
         android:fragment="com.android.settings.WirelessSettings"
         android:icon="@drawable/empty_icon" />
 
+    <!-- PA Plus -->
+    <header android:id="@+id/pa_plus"
+        android:title="@string/pa_plus" />
+
+    <!-- HALO -->
+    <header
+        android:id="@+id/halo_settings"
+        android:fragment="com.android.settings.paranoid.Halo"
+        android:icon="@drawable/ic_settings_halo"
+        android:title="@string/halo_settings_title" />
+
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
         android:title="@string/header_category_device" />
@@ -128,13 +139,6 @@
     <!-- PERSONAL -->
     <header android:id="@+id/personal_section"
         android:title="@string/header_category_personal" />
-
-    <!-- HALO -->
-    <header
-        android:id="@+id/halo_settings"
-        android:fragment="com.android.settings.paranoid.Halo"
-        android:icon="@drawable/ic_settings_halo"
-        android:title="@string/halo_settings_title" />
 
     <!-- Location -->
     <header
