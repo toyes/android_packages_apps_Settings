@@ -133,6 +133,8 @@
     <string name="halo_notification_msgbox_summary">Show message box for incoming notifications</string>
     <string name="halo_unlock_ping_title">Ping on unlock</string>
     <string name="halo_unlock_ping_summary">Halo will ping when device is unlocked if new notifications were received</string>
+    <string name="halo_color_title">Halo color</string>
+    <string name="halo_color_summary">Defines how color Halo is going to be</string>
 
     <string name="halo_size_title">Halo size</string>
     <string name="halo_size_summary">Defines how big Halo is going to be</string>
@@ -153,6 +155,10 @@
     <!-- Label for are-halo-notifications-allowed checkbox in app details [CHAR LIMIT=20] -->
     <string name="app_halo_label_black">Blacklist from HALO</string>
     <string name="app_halo_label_white">Whitelist from HALO</string>
+
+    <!-- Halo Color Picker -->
+    <string name="dialog_color_picker">Halo color</string>
+    <string name="press_color_to_apply">Press on Color to apply</string>
 
     <!-- Message of dialog confirming that user wants to restart their device with a new runtime -->
     <string name="custom_runtime_warning_title">Warning</string>
@@ -176,4 +182,5 @@
 
     <!-- PA Plus -->
     <string name="pa_plus">Plus</string>
+
 </resources>
