@@ -16,6 +16,7 @@
    limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
     <!-- Low battery warning policy -->
     <string name="pref_low_battery_warning_policy_title">Low battery warning</string>
     <string name="pref_low_battery_warning_policy_dialog_title">Indicate low battery warning with</string>
@@ -26,6 +27,13 @@
     <string name="low_battery_warning_policy_sound">Sound only</string>
     <string name="battery_prefs_title">Options</string>
     <string name="battery_stats_title">Statistics</string>
+
+    <!--Notification category-->
+    <string name="notification_category">Notifications</string>
+
+    <!--Notification peek-->
+    <string name="notification_peek_title">Notification peek</string>
+    <string name="notification_peek_summary">Show latest notification after picking up your device</string>
 
     <!--Notification LED category header-->
     <string name="notification_led_category_title">Notification LED</string>
